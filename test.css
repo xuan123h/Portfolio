@@ -460,6 +460,18 @@ footer span {
   header {
     width: 100%;
   }
+  #portfolio .box-container:nth-child(2) .project-one .project-one-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  #portfolio .box-container:nth-child(2) .project-one .project-one-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
 }
 
 /* Project personal */
